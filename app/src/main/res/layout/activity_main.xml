@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,14 +24,14 @@
 
         <TextView
             android:id="@+id/name"
-            android:text="JACK'S GARAGE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/building"
             android:layout_marginBottom="16dp"
-            android:paddingLeft="24dp"
             android:background="#185df1"
             android:fontFamily="sans-serif-medium"
+            android:paddingLeft="24dp"
+            android:text="JACK'S GARAGE"
             android:textColor="#ffffff"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -42,8 +41,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/name"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="20dp"
             android:paddingLeft="32dp"
+            android:paddingRight="32dp"
             android:text="Friendly, family-run, local garage for MOTs, Servicing and Repairs"
             android:textSize="24sp" />
 
@@ -59,18 +59,18 @@
             <ImageView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
                 android:layout_marginLeft="24dp"
                 android:src="@drawable/phone" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
-                android:text="01234 887766"
-                android:textSize="24sp"
                 android:autoLink="phone"
+                android:paddingLeft="12dp"
+                android:text="01234 887766"
                 android:textColorLink="@android:color/tab_indicator_text"
-                />
+                android:textSize="24sp" />
 
 
         </LinearLayout>
@@ -87,16 +87,17 @@
             <ImageView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
                 android:layout_marginLeft="24dp"
-                android:src="@drawable/mapmarker"/>
+                android:src="@drawable/mapmarker" />
 
             <TextView
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
+                android:paddingLeft="12dp"
                 android:text="35 Essex Road, Basingstoke, Hampshire, RG21 6NQ"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
         </LinearLayout>
 
@@ -110,16 +111,17 @@
             <ImageView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
                 android:layout_marginLeft="24dp"
-                android:src="@drawable/open"/>
+                android:src="@drawable/open" />
 
             <TextView
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
+                android:paddingLeft="12dp"
                 android:text="Monday-Friday 8am-6pm\nSaturday 8.30am-1pm"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
         </LinearLayout>
 
